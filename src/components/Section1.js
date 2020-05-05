@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {NavLink} from 'react-router-dom'
 export default function Section1() {
     return (
         <>
@@ -12,7 +12,7 @@ export default function Section1() {
                     <h5>
                         Build skills with courses, certificates, and degrees online from world-class universities and companies
                     </h5>
-                    <button class='btn btn-primary'><h5>Join For Free</h5></button>
+                    <button class='btn btn-primary'><h5><NavLink to='/signup'>Join For Free</NavLink></h5></button>
                 </div>
             </div>
         </div>

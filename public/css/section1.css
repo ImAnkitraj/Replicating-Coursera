@@ -82,7 +82,7 @@
         bottom: 0;
         width: 100%;
         z-index: 2;
-        background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(39,16,102,1)); ;
+        background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(39,16,102,1)); 
     }
     .sec1-overlay .sec1-overlay-content h1{
         color: honeydew;

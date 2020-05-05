@@ -8,14 +8,14 @@ import Section5 from './Section5'
 import Footer from './Footer';
 export default function Home() {
   return (
-      <>
+      <div className='animated fadeIn'>
        <Section1 />
        <Section2 />
        <Section3 />
        <Section4 />
        <Section5 />
        <Footer />
-      </>
+      </div>
   )
 }
 

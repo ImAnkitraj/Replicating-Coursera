@@ -2,7 +2,7 @@ import React from 'react'
 import {NavLink} from 'react-router-dom'
 export default function Login() {
     return (
-        <div class="container login-container">
+        <div class="container login-container animated fadeIn">
             <div class="row">
                 <div class="col-lg-6 col-sm-12 login-form-2">
                     <h3>Login Here</h3>
