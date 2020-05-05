@@ -1,0 +1,36 @@
+.footer-container {
+    padding-top: 7%;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 2%;
+    background-color: ghostwhite;
+}
+
+.copyright{
+    padding-top:3%;
+}
+.copyright span {
+    float:right;
+    font-size: 30px;
+}
+
+@media(max-width:991px){
+    .footer-container .footer .row{
+        font-size: 15px;
+    }
+    .footer-container .footer .row h4{
+        font-size: 25px;
+    }
+    .footer-container .footer .row .col-sm-12{
+        margin-top:8%;
+    }
+    .copyright{
+        padding-top:3%;
+        text-align: center;
+    }
+    .copyright span {
+        transform: translate(-8%,0);
+        display: block;
+        font-size: 30px;
+    }
+}

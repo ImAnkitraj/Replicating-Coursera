@@ -1,0 +1,46 @@
+.sec2-container{
+    padding: 3% 0;
+    position: relative;
+    background-color: #f5f8fd;
+}
+
+.sec2-container .sec2{
+    text-align: center;
+}
+
+.sec2-container .sec2 .row{
+    justify-content: space-evenly;
+}
+
+.sec2-container .sec2 img{
+    margin:10px;
+    width: 10%;
+}
+.sec2-container .sec2 .row .col-lg-3 img{
+    width: 20%;
+}
+.sec2-container .sec2 .header{
+    padding: 3%;
+}
+.sec2-container .sec2 .header h1{
+    font-weight: 700;
+}
+
+@media(max-width:991px){
+    .sec2-container .sec2 .row .col-lg-3{
+        padding:4% 15%;
+    }
+    .sec2-container .sec2 .row .col-lg-3 img{
+        width: 25%;
+    }
+    .sec2-container .sec2 .header h1{
+        font-weight: 500;
+        font-size: 30px;
+    }  
+    .sec2-container .sec2 .row h3{
+        font-size:20px;
+    }
+    .sec2-container .sec2 .row h5{
+        font-size: 15px;
+    } 
+}

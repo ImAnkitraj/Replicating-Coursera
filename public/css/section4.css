@@ -1,0 +1,37 @@
+.sec4-container {
+    padding: 3% 0;
+    position: relative;
+    background-color: #f5f8fd;
+}
+
+.sec4-container .sec4 {
+    text-align: center;
+    padding:  4% 0;
+}
+
+.sec4-container .sec4 .header{
+    padding-bottom: 6%;
+}
+
+.sec4-container .sec4 .row .col-lg-5{
+    margin:auto;
+}
+
+@media(max-width:991px){
+    .sec4-container .sec4{
+        padding: 4% 10%;
+    }
+    .sec4-container .sec4 .header h1{
+        font-size: 25px;
+    }
+    .sec4-container .sec4 .row h4{
+        font-size: 20px;
+    }
+    .sec4-container .sec4 .row h6{
+        font-size: 15px;
+    }
+    .sec4-container .sec4 .row img{
+        height: 90%;
+        width: 80%;
+    }
+}

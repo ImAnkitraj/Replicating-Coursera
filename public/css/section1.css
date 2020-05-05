@@ -1,0 +1,101 @@
+.sections{
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    top:20px;
+}
+.sec1-container{
+    position: relative;
+    width: 100%;
+}
+.sec1{
+    z-index: 0;
+    width:100%;
+    height:70vh;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../img/sec1.jpg');
+}
+
+.sec1-overlay{
+    padding: 8%;
+    height: 70vh;
+    position:absolute;
+    top:0;
+    left:0;
+    right: 0;;
+    bottom: 0;
+    width: 100%;
+    z-index: 2;
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(39,16,102,1)); ;
+}
+.sec1-overlay .sec1-overlay-content {
+    width: 60%;
+    padding: 5%;
+}
+.sec1-overlay .sec1-overlay-content h1{
+    color: honeydew;
+    font-weight: 700;
+    font-size: 50px;
+}
+.sec1-overlay .sec1-overlay-content h5 {
+    margin:5% 0;
+    color: gainsboro;
+}
+.sec1-overlay .sec1-overlay-content .btn h5 {
+    color: ghostwhite;
+}
+@media(max-width:991px){
+    .sec1-overlay .sec1-overlay-content{
+        width: 70%;
+    }
+    .sec1-overlay .sec1-overlay-content h1{
+        color: honeydew;
+        font-weight: 500;
+        font-size: 30px;
+    }
+    .sec1-overlay .sec1-overlay-content h5{
+        font-size: 18px;;
+    }
+    .sections{
+        overflow: hidden;
+        position: absolute;
+        width: 100%;
+        top:20px;
+    }
+    .sec1-container{
+        position: relative;
+        width: 100%;
+    }
+    .sec1{
+        background-image: url('../img/sec1.png');
+        background-position: right;
+    }
+    .sec1-overlay{
+        position:absolute;
+        top:0;
+        left:0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        z-index: 2;
+        background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(39,16,222,1)); ;
+    }
+    .sec1-overlay .sec1-overlay-content{
+        padding:10% 5%;
+    }
+    .sec1-overlay .sec1-overlay-content h1{
+        color: honeydew;
+        font-weight: 600;
+    }
+    .sec1-overlay .sec1-overlay-content h5 {
+        margin:5% 0;
+        color: gainsboro;
+        font-size: 16px;
+    }
+    .sec1-overlay .sec1-overlay-content .btn h5 {
+        color: ghostwhite;
+    }
+}
