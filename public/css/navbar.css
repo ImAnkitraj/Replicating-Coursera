@@ -30,7 +30,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 8%;
+    padding: 15px 8%;
 }
 .logo{
     height: 40px;
@@ -38,7 +38,7 @@ header{
     cursor: pointer;
 }
 .nav-links{
-  padding-top: 10px;
+  padding-top: 13px;
   list-style: none;
 }
 .nav-links li{
@@ -55,7 +55,6 @@ header{
 .nav-links input:hover {
     border:2px solid #2073d4;
     box-shadow: 0 0 5px grey;
-
 }
 
 .nav-links li :hover{
