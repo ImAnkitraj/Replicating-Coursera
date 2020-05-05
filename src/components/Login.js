@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {NavLink} from 'react-router-dom'
 export default function Login() {
     return (
         <div class="container login-container">
@@ -15,6 +15,7 @@ export default function Login() {
                         </div>
                         <div class="form-group">
                             <input type="submit" class="btnSubmit" value="Login" />
+                            <NavLink to='/'><input type='submit' class="btnSubmit" value="Back" /></NavLink>
                         </div>
                         <div class="form-group">
 

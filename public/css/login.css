@@ -57,6 +57,7 @@ body {
 
 @media(max-width:991px){
     .login-container{
+        overflow: hidden;
         margin-top: 10%;
         margin-left: 0;
         height: 100vh;

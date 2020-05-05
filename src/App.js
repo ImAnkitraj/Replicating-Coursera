@@ -16,7 +16,7 @@ function App() {
         <Navbar sidebarStatus={sidebarStatus} setSidebarStatus={setSidebarStatus}/>
         {
         sidebarStatus ? 
-          <div className=' sidebar-div animated fadeInLeft'>
+          <div className=' sidebar-div animated fadeIn'>
             <Sidebar sidebarStatus={sidebarStatus} setSidebarStatus={setSidebarStatus}/> 
           </div>: ''
         }

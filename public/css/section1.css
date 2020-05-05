@@ -74,6 +74,7 @@
         background-position: right;
     }
     .sec1-overlay{
+        padding-bottom: 2%;
         position:absolute;
         top:0;
         left:0;
@@ -81,17 +82,15 @@
         bottom: 0;
         width: 100%;
         z-index: 2;
-        background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(39,16,222,1)); ;
-    }
-    .sec1-overlay .sec1-overlay-content{
-        padding:10% 5%;
+        background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(39,16,102,1)); ;
     }
     .sec1-overlay .sec1-overlay-content h1{
         color: honeydew;
         font-weight: 600;
+        font-size: 35px;
     }
     .sec1-overlay .sec1-overlay-content h5 {
-        margin:5% 0;
+        margin:10% 0;
         color: gainsboro;
         font-size: 16px;
     }
