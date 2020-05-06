@@ -12,7 +12,7 @@ export default function Carousel() {
             {/* <!--/.Indicators--> */}
         
             {/* <!--Slides--> */}
-            <div class="carousel-inner desktop" role="listbox">
+            <div class="carousel-inner " role="listbox">
             
                 {/* <!--First slide--> */}
                 <div class="carousel-item active col-sm-12">
@@ -94,16 +94,16 @@ export default function Carousel() {
                 <a class="carousel-control-prev" href="#multi-item-example" data-slide="prev"><span className='carousel-control-prev-icon' aria-hidden='true'></span><span class='sr-only'>Previous</span></a>
                 <a class="carousel-control-next" href="#multi-item-example" data-slide="next"><span className='carousel-control-next-icon' aria-hidden='true'></span><span class='sr-only'>Next</span></a>
             </div>
-            {/* <ol class="carousel-indicators">
+            <ol class="carousel-indicators">
                 <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
                 <li data-target="#multi-item-example" data-slide-to="1"></li>
-            </ol> */}
+            </ol>
             {/* <!--/.Controls--> */}
             {/* <!--/.Slides--> */}
         </div>
         {/* <!--/.Carousel Wrapper--> */}
         <div id="single-item-example" class="carousel slide " data-ride="carousel">
-            <div class="carousel-inner mobile" role="listbox">        
+            <div class="carousel-inner" role="listbox">        
                 {/* <!--First slide--> */}
                 <div class="carousel-item active">
                     <div class="col-md-4 " style={{float:"left"}}>
@@ -132,12 +132,12 @@ export default function Carousel() {
                 <div class="carousel-item ">
                     <div class="col-md-4 " style={{float:"left"}}>
                         <div class="card mb-2">
-                        <img class="card-img-top"
-                            src="img/car3.png" alt="Card image cap"/>
-                        <div class="card-body">
-                            <h4 class="card-title"><strong>Mirela I.<br /></strong><p><em>IBM Data Science Professional Certifucate Alumna<br/>Romania</em></p><hr/></h4>
-                            <p class="card-text"><strong>"Recuruiters saw my Professional Certificate</strong> on my Linkedin profile. During the interview, they told me <strong>they were impressed with the skills I learned.</strong> I got the job!"</p>
-                        </div>
+                            <img class="card-img-top"
+                                src="img/car3.png" alt="Card image cap"/>
+                            <div class="card-body">
+                                <h4 class="card-title"><strong>Mirela I.<br /></strong><p><em>IBM Data Science Professional Certifucate Alumna<br/>Romania</em></p><hr/></h4>
+                                <p class="card-text"><strong>"Recuruiters saw my Professional Certificate</strong> on my Linkedin profile. During the interview, they told me <strong>they were impressed with the skills I learned.</strong> I got the job!"</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -162,6 +162,12 @@ export default function Carousel() {
                 <a class="carousel-control-prev" href="#single-item-example" data-slide="prev"><span className='carousel-control-prev-icon' aria-hidden='true'></span><span class='sr-only'>Previous</span></a>
                 <a class="carousel-control-next" href="#single-item-example" data-slide="next"><span className='carousel-control-next-icon' aria-hidden='true'></span><span class='sr-only'>Next</span></a>
             </div>
+            <ol class="carousel-indicators">
+                <li data-target="#single-item-example" data-slide-to="0" class="active"></li>
+                <li data-target="#single-item-example" data-slide-to="1"></li>
+                <li data-target="#single-item-example" data-slide-to="2"></li>
+                <li data-target="#single-item-example" data-slide-to="3"></li>
+            </ol>
         </div>
     </div>
     );
