@@ -84,13 +84,13 @@ export default function Footer() {
                 <hr></hr>
                 <div className='copyright'>
                     © 2020 Coursera Inc. All rights reserved.
-                    <span>
+                    <p>
                         <i class="fab fa-facebook"></i> &nbsp;&nbsp;
                         <i class="fab fa-linkedin"></i>&nbsp;&nbsp;
                         <i class="fab fa-twitter"></i>&nbsp;&nbsp;
                         <i class="fab fa-youtube"></i>&nbsp;&nbsp;
                         <i class="fab fa-instagram"></i>&nbsp;&nbsp;
-                    </span>
+                    </p>
                 </div>
             </div>
         </div>

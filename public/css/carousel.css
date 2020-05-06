@@ -1,0 +1,35 @@
+.carousel-container{
+    padding:3%;
+    background-color: #f5f8fd;
+    text-align: center;
+}
+.carousel-container h4{
+    margin-bottom: 4%;
+}
+.card{
+    border: none;
+    background-color:#f5f8fd ;
+    text-align: center;
+    padding: 10%;
+}
+.card hr{
+    border:1px solid blueviolet;
+    width: 50%;
+}
+.card h4{
+    margin: 1%;
+}
+.card h4 p{
+    font-size: 16px;
+}
+
+@media(max-width:991px){
+    .carousel-container h1{
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .carousel-container h4{
+        margin-bottom: 4%;
+        font-size: 20px;
+    }
+}
