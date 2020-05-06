@@ -82,7 +82,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <hr></hr>
-                <div className='copyright'>
+                <div className='copyright bg-light'>
                     © 2020 Coursera Inc. All rights reserved.
                     <p>
                         <i class="fab fa-facebook"></i> &nbsp;&nbsp;
